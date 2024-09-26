@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 1536px;
+    height: 1042px;
+    background-color: #fff;
+    position: relative;
+}
+
+.box img{
+    width: 781.5px;
+    height: 1042px;
+    right: 0;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    position: absolute;
+}
+
+.container{
+    width: 404px;
+    height: 638px;
+    margin-top: 202px;
+    margin-left: 175px;
+    float: left;
+}
+
+.container form {
+    font-size: 14px;
+}
+
+.container h1{
+    font-size: 32px;
+}
+.container form{
+    margin-top: 50px;
+}
+#label1{
+    margin-top: 50px;
+}
+#name{
+    height: 32px;
+    width: 404px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#email{
+    height: 32px;
+    width: 404px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#password{
+    height: 32px;
+    width: 404px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#yuborish{
+    height: 32px;
+    width: 404px;
+    border-radius: 10px;
+    background-color: #3A5B22;
+    color: #fff;
+    margin-top: 10px;
+}
+
+#agree{
+    margin-bottom: 15px;
+}
+
+#button{
+    width: 190px;
+    height: 32px;
+    border-radius: 10px;
+}
+
+#button2{
+    width: 190px;
+    height: 32px;
+    border-radius: 10px;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container p{
+    text-align: center;
+}
+
+.container #forgot{
+    margin-left: 250px;
+}
+
+.or{
+    width: 404px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;   
+    margin: 50px 0 50px 0; 
+}
+.or .line hr{
+    width: 190px;
+    display: inline-block;
+}
+
+.or .line2 hr{
+    width: 190px;
+    display: inline-block;
+}
+
+.or p {
+    margin-top: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.box .btn{
+    display: flex;
+    justify-content: space-between;
+}
